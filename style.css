@@ -1,15 +1,13 @@
+body {
+    background-color: black;
+    color: white;
+}
 .main-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px 15px;
 };
 
-.nav {
-    justify-content: space-between;
-};
-
-.about {
-    
+#skills ul li{
+    list-style: none;
 }
