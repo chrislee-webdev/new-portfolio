@@ -10,6 +10,7 @@ body {
 
 }
 
+/* Header stytling */
 header {
     display: flex;
     justify-content: space-between;
@@ -25,11 +26,7 @@ header nav ul li {
     padding: 1rem;
 }
 
-a {
-    text-decoration: none;
-    color: aliceblue;
-}
-
+/* Div styling */
 .skills-list {
     list-style: none;
 }
@@ -38,12 +35,18 @@ a {
     padding: .25rem;
 }
 
-p {
-    line-height: 2rem;
+/* SVG Spacing */
+img {
+    padding: 0px 25px 25px;
 }
 
-/* SVG Spacing */
+/* General styling */
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
 
-img {
-    padding: 10px 25px;
+
+p {
+    line-height: 2rem;
 }
