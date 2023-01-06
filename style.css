@@ -30,7 +30,7 @@ a {
     color: aliceblue;
 }
 
-.container .row .skills-list ul {
+.skills-list {
     list-style: none;
 }
 
