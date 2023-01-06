@@ -1,9 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: black;
-    color: white;
+    color: aliceblue;
+    margin: 2.5rem;
+
 }
-.main-header {
+
+header {
     display: flex;
     justify-content: space-between;
-    margin: 50px 15px;
-};
+    /* padding: 2.5rem; */
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.container .row .skills-list ul {
+    list-style: none;
+}
+
+.container .row .skills-list ul li {
+    padding: .25rem;
+}
+
+p {
+    line-height: 2rem;
+}
+
+/* SVG Spacing */
+
+img {
+    padding: 10px 25px;
+}
