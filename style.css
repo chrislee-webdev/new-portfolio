@@ -10,7 +10,12 @@ body {
 
 }
 
-/* Header stytling */
+main {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Header styling */
 header {
     display: flex;
     justify-content: space-between;
@@ -27,10 +32,19 @@ header nav ul li {
     padding: 1rem;
 }
 
+footer {
+    border-top: solid aliceblue;
+    margin-bottom: -5rem;
+}
+
 /* Div styling */
 
 .skills-list {
     list-style: none;
+}
+
+.container .project-container {
+    margin-bottom: 10rem;
 }
 
 .container .row .skills-list ul li {
