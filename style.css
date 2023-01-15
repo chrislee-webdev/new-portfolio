@@ -26,10 +26,11 @@ header {
 header nav ul {
     display: flex;
     list-style: none;
+    margin-right: 1rem;
 }
 
 header nav ul li {
-    padding: 1rem;
+    padding-top: 1rem;
 }
 
 footer {
